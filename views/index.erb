@@ -83,12 +83,9 @@
           <h1>VimBytes<small>(Vim one byte at a time)</small></h1>
         </div>
         <div class="episode">
-          <%= erb :_video %>
-        <div class="row">
-          <div class="span6">
-            <h3>Shortcuts</h3>
-          </div>
-        </div>
+          <% @episodes.each do |episode| %>
+            <%= erb :_video ,:locals => {episode: episode}  %>
+        <% end %>
 
       </div>
 
