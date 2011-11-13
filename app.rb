@@ -1,7 +1,9 @@
 require 'sinatra'
+require 'yaml'
 
 get '/' do
-  @episodes = [ {name: "openclose"}]
+  episodes_file =  File.join( File.dirname(__FILE__) , 'episodes.yml')
+  @episodes = YAML.load_file(episodes_file).values
   erb :index
 end
 
