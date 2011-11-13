@@ -1,7 +1,9 @@
-openclose:
-  name: openclose
-  keys:
-   "open files in horizontal splits": "vi -o"
-   "open files in vertical splits": "vi -O"
-   "close all files": ":qa"
-   "keep only the current split open": ":only"
+episodes:
+   - title: "Opening and closing files" 
+     name: openclose
+     keys:
+       "open files in horizontal splits": "vi -o"
+       "open files in vertical splits": "vi -O"
+       "close all files": ":qa"
+       "keep only the current split open": ":only"
+
