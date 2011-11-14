@@ -6,4 +6,13 @@ episodes:
        "open files in vertical splits": "vi -O"
        "close all files": ":qa"
        "keep only the current split open": ":only"
+     tags: [ "Basics", "Beginner"]
 
+   - title: "Working with splits" 
+     name: splits
+     keys:
+       "open file in a horizontal split": ":sp filename"
+       "open file in a vertical split": ":vsp filename"
+       "switch between splits": "ctrl+ww"
+       "switch between splits using navigation keys": "ctrl+w<hjkl>"
+     tags: [ "Basics", "Beginner", "Splits"]
