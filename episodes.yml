@@ -16,3 +16,12 @@ episodes:
        "switch between splits": "ctrl+ww"
        "switch between splits using navigation keys": "ctrl+w<hjkl>"
      tags: [ "Basics", "Beginner", "Splits"]
+
+   - title: "Modes in vi" 
+     name: modes
+     keys:
+       "selecting lines visually": "shift-v"
+       "selecting columns visuall": "crtrl-v"
+       "going into insert mode": "i"
+       "going into line mode": ":,/,?"
+     tags: [ "Basics", "Beginner", "Splits"]
