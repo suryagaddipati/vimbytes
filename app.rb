@@ -1,5 +1,8 @@
 require 'sinatra'
 require 'yaml'
+configure :production do
+  require 'newrelic_rpm'
+end
 
 get '/' do
   episodes_file =  File.join( File.dirname(__FILE__) , 'episodes.yml')
